@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["p3sw"],
+    "url": "https://github.com/p12h4/DebugStick"
+  },
+  "header": {
+    "description": "Adds a functional Debug Stick to your world! | Required Toggle: \u0022Beta APIs\u0022",
+    "name": "Debug Stick v1.0.0 §7[1.20.5x]§r",
+    "uuid": "413d17d5-3b2f-4c70-919d-25a3930e6397",
+    "version": "1.0.0",
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "4dc65a4d-8e6f-43ad-bb8a-223e59d4b383",
+      "version": "1.0.0",
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5c93f60e-d193-4ae8-af4f-d5e0d7e16ef5",
+      "version": "1.0.0"
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

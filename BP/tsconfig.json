@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "scripts",
+    "target": "ES2022",
+    "removeComments": true,
+    "paths": {
+      "@minecraft/common": [".vscode/types/@minecraft/common/index"],
+      "@minecraft/server": [".vscode/types/@minecraft/server/index"]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": []
+}

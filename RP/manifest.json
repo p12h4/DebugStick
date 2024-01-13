@@ -1,0 +1,27 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["p3sw"],
+    "url": "https://github.com/p12h4/DebugStick"
+  },
+  "header": {
+    "description": "Adds a functional Debug Stick to your world!",
+    "name": "Debug Stick v1.0.0 §7[1.20.5x]§r",
+    "uuid": "5c93f60e-d193-4ae8-af4f-d5e0d7e16ef5",
+    "version": "1.0.0",
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "66cf29fc-8cc3-4eaf-a8af-c6e1de4c41d5",
+      "version": "1.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "413d17d5-3b2f-4c70-919d-25a3930e6397",
+      "version": "1.0.0"
+    }
+  ]
+}

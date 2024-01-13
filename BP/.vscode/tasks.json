@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "powershell /executionpolicy Bypass /command '& \"./.vscode/tasks/build.ps1\"'",
+      "problemMatcher": []
+    }
+  ]
+}
