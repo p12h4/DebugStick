@@ -12,5 +12,5 @@ This addon introduces Minecraft Java's "Debug Stick", which allows players to cy
 
 ### Interacting with Blocks
 
-1. **Inspect a Block**: Right-click on a block to cycle through its properties.
-2. **Modify a Block**: Left-click on a block to modify its currently selected property.
+1. **Inspect a Block**: Left-click on a block to cycle through its properties.
+2. **Modify a Block**: Right-click on a block to modify its currently selected property.
